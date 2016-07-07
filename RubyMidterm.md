@@ -23,6 +23,8 @@
 
 ```ruby
 
+puts "hello World"
+
 ```
 
 ## 2. 適切なものを選び、説明を埋めよ
@@ -32,10 +34,15 @@
 
 ```
 # 存在しない型
-
+Bool
 # 存在する型と具体例
 # [答え方の例]
 # 型: 具体例
+
+Fixnum:小さい整数を扱う型
+Bignum:デカい整数を扱う型
+Float:浮動少数点形をあつかう型
+String:文字列を扱う型
 
 ```
 
@@ -65,6 +72,24 @@
 # 出力例2
 # 1000
 
+age,sex = STDIN.gets.to_i
+
+if age <= 12 then
+       	charge = 700
+elsif age >= 12 && age <= 18 then
+      	charge = 1000
+elsif age >= 18 && age <= 22 then
+      	charge = 1200
+else
+	charge = 1500
+end
+
+if sex == 1 then
+   charge -= 200
+end
+
+puts charge
+
 
 ```
 
@@ -89,6 +114,8 @@ dc?5ba
 AB5?CD
 b5?c
 AB?Cd
+
+
 ```
 
 ## 5. 適切なプログラムを書け
