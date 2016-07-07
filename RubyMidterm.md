@@ -115,6 +115,14 @@ AB5?CD
 b5?c
 AB?Cd
 
+moji = STDIN.gets
+
+puts moji
+puts moji.length
+puts moji.reverse
+puts moji.upcase
+puts moji.[1..-3]
+puts moji.tr("a-c", "A-C")
 
 ```
 
@@ -194,6 +202,10 @@ http://docs.ruby-lang.org/ja/2.1.0/method/Dir/s/mkdir.html
 
 ```ruby
 
+enigma = STDIN.gets
+
+puts enigma.tr("qtbnjuwckdphxzvlsiframeygo","epbwstzviruqmxhkjadycnfogl")
+
 ```
 
 ## 8. 適切なプログラムを書け
@@ -224,5 +236,8 @@ SuzukiSaki OgataMisaki TanakaRin
 ```
 
 ```ruby
+
+#ShibuyaRinがTanakaRinになるのは戦争が起きると思った。おわり。
+
 ```
 
